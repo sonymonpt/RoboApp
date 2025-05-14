@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: INFO
+    org.example.robobob: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
